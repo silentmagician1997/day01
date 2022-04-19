@@ -16,7 +16,7 @@ int main() {
 		}
 		cout << endl;
 	}
-//Ve 5 hang tiep theo
+//Ve 4 hang tiep theo
 	for (i = n-1 ; i >= 1; i--) {
 		for (j = 1; j <= n-i ; j++) {
 			cout << (" ");
