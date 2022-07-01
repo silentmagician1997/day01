@@ -116,10 +116,10 @@ CSquare::CSquare(int input_side, int input_color)
 int main()
 {
     CPicture Picture;
-    Picture.picture[0] = new CLine(80, 8000);
-    Picture.picture[1] = new CCircle(50, 3000);
-    Picture.picture[2] = new CRectangle(50, 30, 1500);
-    Picture.picture[3] = new CSquare(60, RGB(150, 42, 100));
+    Picture.picture[0] = new CLine(300, 8000);
+    Picture.picture[1] = new CCircle(100, 3000);
+    Picture.picture[2] = new CRectangle(140, 80, 1500);
+    Picture.picture[3] = new CSquare(70, RGB(150, 42, 100));
 
     HWND console_handle = GetConsoleWindow();
     HDC device_context = GetDC(console_handle);
