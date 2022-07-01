@@ -150,7 +150,7 @@ int main()
             exit(0);
  
         //Draw a shape
-        Picture.picture[int_input - 1]->draw(500, 500, device_context);
+        Picture.picture[int_input - 1]->draw(10, 200, device_context);
     }
     cout << "Check result picture below: ";
     ReleaseDC(console_handle, device_context);
